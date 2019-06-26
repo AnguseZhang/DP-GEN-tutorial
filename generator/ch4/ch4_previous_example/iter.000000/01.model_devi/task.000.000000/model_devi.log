@@ -1,0 +1,94 @@
+2019-06-25 21:08:40.422823: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+2019-06-25 21:08:41.999601: E tensorflow/stream_executor/cuda/cuda_driver.cc:406] failed call to cuInit: CUDA_ERROR_NO_DEVICE
+2019-06-25 21:08:41.999658: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:158] retrieving CUDA diagnostic information for host: SR760-GPU-4
+2019-06-25 21:08:41.999668: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:165] hostname: SR760-GPU-4
+2019-06-25 21:08:41.999727: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:189] libcuda reported version is: 410.48.0
+2019-06-25 21:08:41.999775: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:193] kernel reported version is: 410.48.0
+2019-06-25 21:08:41.999782: I tensorflow/stream_executor/cuda/cuda_diagnostics.cc:300] kernel version seems to match DSO: 410.48.0
+          v0.12.4-1-ge3cd911-dirty
+  source branch:      master
+  source commit:      e3cd911
+  source commit at:   2019-02-07 10:22:13 +0800
+  build float prec:   double
+  build with tf inc:  /sharedext4/local/tensorflow/r1.8.gpu.cc/include
+  build with tf lib:  /sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_cc.so;/sharedext4/local/tensorflow/r1.8.gpu.cc/lib/libtensorflow_framework.so
+  >>> Info of model(s):
+  using   4 model(s): ../graph.002.pb ../graph.003.pb ../graph.000.pb ../graph.001.pb 
+  rcut in model:      5
+  ntypes in model:    2
+Neighbor list info ...
+  update every 1 steps, delay 10 steps, check yes
+  max neighbors/atom: 2000, page size: 100000
+  master list distance cutoff = 6
+  ghost atom cutoff = 6
+  binsize = 3, bins = 4 4 4
+  1 neighbor lists, perpetual/occasional/extra = 1 0 0
+  (1) pair deepmd, perpetual
+      attributes: , newton on
+      pair build: full/bin/atomonly
+      stencil: full/bin/3d
+      bin: standard
+Setting up Verlet run ...
+  Unit style    : metal
+  Current step  : 0
+  Time step     : 0.002
+Per MPI rank memory allocation (min/avg/max) = 3.934 | 3.934 | 3.934 Mbytes
+Step Temp PotEng KinEng TotEng Press Volume Lx Ly Lz Xy Xz Yz 
+       0          100   -23.994416  0.051704058   -23.942712   -637.81442         1000           10           10           10            0            0            0 
+      10    78.074797   -23.981606  0.040367838   -23.941238   -745.61404         1000           10           10           10            0            0            0 
+      20    112.22703   -23.999915  0.058025928   -23.941889   -517.25129         1000           10           10           10            0            0            0 
+      30    81.270282   -23.981528  0.042020034   -23.939508   -118.19411         1000           10           10           10            0            0            0 
+      40    114.55853   -23.996108  0.059231409   -23.936876    333.47599         1000           10           10           10            0            0            0 
+      50    83.102214   -23.971647  0.042967217    -23.92868    642.62619         1000           10           10           10            0            0            0 
+      60    108.67383   -23.977786   0.05618878   -23.921598    631.81428         1000           10           10           10            0            0            0 
+      70    100.64958   -23.964491  0.052039919   -23.912451    280.18268         1000           10           10           10            0            0            0 
+      80    122.51331   -23.964433  0.063344354   -23.901088   -229.19306         1000           10           10           10            0            0            0 
+      90    130.06532    -23.95186  0.067249048    -23.88461   -679.19572         1000           10           10           10            0            0            0 
+     100    110.45761   -23.924285  0.057111068   -23.867173   -834.36113         1000           10           10           10            0            0            0 
+     110    207.44793    -23.96164     0.107259   -23.854381   -582.02917         1000           10           10           10            0            0            0 
+     120    155.84836   -23.924511  0.080579927   -23.843931    -37.30626         1000           10           10           10            0            0            0 
+     130    207.23864   -23.951637   0.10715079   -23.844486    566.36507         1000           10           10           10            0            0            0 
+     140      207.212   -23.964028   0.10713701   -23.856891    771.10551         1000           10           10           10            0            0            0 
+     150    179.69137   -23.972414   0.09290773   -23.879506    466.11289         1000           10           10           10            0            0            0 
+     160    159.60157    -23.98621  0.082520486    -23.90369   -47.156867         1000           10           10           10            0            0            0 
+     170    131.82966   -23.991125  0.068161281   -23.922963   -453.15739         1000           10           10           10            0            0            0 
+     180    85.553767   -23.978006  0.044234769   -23.933771    -634.2835         1000           10           10           10            0            0            0 
+     190    91.670966   -23.989116  0.047397609   -23.941719   -525.61695         1000           10           10           10            0            0            0 
+     200    82.393378    -23.98863   0.04260072    -23.94603   -196.76606         1000           10           10           10            0            0            0 
+     210     76.74319   -23.986688  0.039679343   -23.947008    195.59633         1000           10           10           10            0            0            0 
+     220    65.135072   -23.979713  0.033677475   -23.946035    514.52524         1000           10           10           10            0            0            0 
+     230    82.385868   -23.987602  0.042596837   -23.945005    632.77917         1000           10           10           10            0            0            0 
+     240    51.840407   -23.969271  0.026803594   -23.942467    451.05783         1000           10           10           10            0            0            0 
+     250    81.730067   -23.983266  0.042257761   -23.941008    99.894388         1000           10           10           10            0            0            0 
+     260    67.033454   -23.971329  0.034659016    -23.93667   -270.73041         1000           10           10           10            0            0            0 
+     270    62.136741   -23.963354  0.032127217   -23.931227   -512.47383         1000           10           10           10            0            0            0 
+     280    89.952722   -23.972464  0.046509208   -23.925954   -483.62672         1000           10           10           10            0            0            0 
+     290    74.191453   -23.958009  0.038359992   -23.919649   -179.47645         1000           10           10           10            0            0            0 
+     300    109.91936   -23.970125  0.056832772   -23.913292    280.47316         1000           10           10           10            0            0            0 
+Loop time of 4.37135 on 1 procs for 300 steps with 5 atoms
+
+Performance: 11.859 ns/day, 2.024 hours/ns, 68.629 timesteps/s
+301.7% CPU use with 1 MPI tasks x no OpenMP threads
+
+MPI task timing breakdown:
+Section |  min time  |  avg time  |  max time  |%varavg| %total
+---------------------------------------------------------------
+Pair    | 4.1252     | 4.1252     | 4.1252     |   0.0 | 94.37
+Neigh   | 0.00030804 | 0.00030804 | 0.00030804 |   0.0 |  0.01
+Comm    | 0.0012159  | 0.0012159  | 0.0012159  |   0.0 |  0.03
+Output  | 0.24164    | 0.24164    | 0.24164    |   0.0 |  5.53
+Modify  | 0.0018976  | 0.0018976  | 0.0018976  |   0.0 |  0.04
+Other   |            | 0.001045   |            |       |  0.02
+
+Nlocal:    5 ave 5 max 5 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Nghost:    121 ave 121 max 121 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+Neighs:    0 ave 0 max 0 min
+Histogram: 1 0 0 0 0 0 0 0 0 0
+
+Total # of neighbors = 0
+Ave neighs/atom = 0
+Neighbor list builds = 16
+Dangerous builds = 0
+Total wall time: 0:00:06
